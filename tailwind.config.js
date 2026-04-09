@@ -1,0 +1,68 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "tertiary": "#585f6b",
+        "on-secondary": "#ffffff",
+        "surface-tint": "#864e5a",
+        "on-surface-variant": "#514345",
+        "primary": "#864e5a",
+        "on-primary-fixed-variant": "#6b3743",
+        "surface-container-high": "#e9e8e9",
+        "surface-container-lowest": "#ffffff",
+        "primary-fixed-dim": "#fbb3c1",
+        "on-secondary-container": "#7a5761",
+        "primary-fixed": "#ffd9df",
+        "on-secondary-fixed": "#2d141c",
+        "surface-container-highest": "#e3e2e3",
+        "inverse-primary": "#fbb3c1",
+        "error-container": "#ffdad6",
+        "surface-dim": "#dadadb",
+        "on-tertiary-container": "#4e5561",
+        "on-surface": "#1a1c1d",
+        "on-primary-container": "#7b4551",
+        "on-tertiary-fixed": "#151c26",
+        "surface-variant": "#e3e2e3",
+        "on-primary-fixed": "#360c19",
+        "surface-container-low": "#f4f3f4",
+        "tertiary-fixed-dim": "#c0c7d5",
+        "on-secondary-fixed-variant": "#5e3e47",
+        "on-tertiary-fixed-variant": "#404753",
+        "secondary": "#78555e",
+        "primary-container": "#ffb7c5",
+        "surface-container": "#eeedee",
+        "secondary-fixed-dim": "#e7bbc6",
+        "on-error-container": "#93000a",
+        "secondary-container": "#ffd1dc",
+        "outline": "#837375",
+        "error": "#ba1a1a",
+        "background": "#faf9fa",
+        "on-primary": "#ffffff",
+        "outline-variant": "#d6c2c4",
+        "surface": "#faf9fa",
+        "on-tertiary": "#ffffff",
+        "on-error": "#ffffff",
+        "on-background": "#1a1c1d",
+        "surface-bright": "#faf9fa",
+        "secondary-fixed": "#ffd9e2",
+        "inverse-on-surface": "#f1f0f1",
+        "tertiary-container": "#c3cad8",
+        "tertiary-fixed": "#dce3f1",
+        "inverse-surface": "#2f3032"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px"
+      },
+      "fontFamily": {
+        "headline": ["Noto Serif"],
+        "body": ["Inter"],
+        "label": ["Inter"]
+      }
+    },
+  },
+}
